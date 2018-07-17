@@ -5,3 +5,10 @@ C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.c
 C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csproj.CoreCompileInputs.cache
 C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.exe
 C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.pdb
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csprojAssemblyReference.cache
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csproj.CoreCompileInputs.cache
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.exe
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.pdb
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe.config
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe
+D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.pdb

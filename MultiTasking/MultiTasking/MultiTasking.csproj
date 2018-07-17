@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Algorithms\ReadUsingAsyncAwait.cs" />
+    <Compile Include="Algorithms\ReadUsingTasks.cs" />
+    <Compile Include="Algorithms\ReadUsingThreads.cs" />
+    <Compile Include="Interfaces\ReadingMethodology.cs" />
+    <Compile Include="MyFileReaderExtension\MyFileReader.cs" />
+    <Compile Include="TestMyFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
