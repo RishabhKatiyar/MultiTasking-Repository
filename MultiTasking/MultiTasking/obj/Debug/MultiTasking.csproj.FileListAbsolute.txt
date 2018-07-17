@@ -1,0 +1,7 @@
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe.config
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\bin\Debug\MultiTasking.pdb
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csprojAssemblyReference.cache
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csproj.CoreCompileInputs.cache
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.exe
+C:\Users\ezriska\source\repos\MultiTasking\MultiTasking\obj\Debug\MultiTasking.pdb
