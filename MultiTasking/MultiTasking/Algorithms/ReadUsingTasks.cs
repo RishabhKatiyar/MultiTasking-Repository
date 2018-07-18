@@ -4,7 +4,7 @@ namespace MultiTasking.Algorithms
 {
     class ReadUsingTasks : ReadingMethodology
     {
-        public int Read(object fileObject, object separatorObject)
+        public int Read(string filePath, object separatorObject)
         {
             return 0;
         }

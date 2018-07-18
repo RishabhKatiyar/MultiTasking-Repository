@@ -2,7 +2,7 @@
 
 namespace MultiTasking.Algorithms
 {
-    class ReadUsingAsyncAwait : ReadingMethodology
+    class ReadUsingThreadPool : ReadingMethodology
     {
         public int Read(string filePath, object separatorObject)
         {

@@ -8,6 +8,6 @@ namespace MultiTasking.Interfaces
 {
     interface ReadingMethodology
     {
-        int Read(object fileObject, object seperatorObject);
+        int Read(string filePath, object seperatorObject);
     }
 }

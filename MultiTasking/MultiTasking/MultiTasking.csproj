@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\ReadUsingAsyncAwait.cs" />
     <Compile Include="Algorithms\ReadUsingTasks.cs" />
+    <Compile Include="Algorithms\ReadUsingThreadPool.cs" />
     <Compile Include="Algorithms\ReadUsingThreads.cs" />
     <Compile Include="Interfaces\ReadingMethodology.cs" />
     <Compile Include="MyFileReaderExtension\MyFileReader.cs" />

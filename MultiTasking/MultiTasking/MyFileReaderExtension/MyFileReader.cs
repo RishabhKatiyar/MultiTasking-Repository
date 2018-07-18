@@ -5,18 +5,18 @@ namespace MultiTasking.MyFileReaderExtension
     class MyFileReader
     {
         public MyFileReader() { }
-        public MyFileReader(object fileObject, object seperatorObject)
+        public MyFileReader(string filePath, object seperatorObject)
         {
-            FileObect = fileObject;
+            FilePath = filePath;
             SeperatorObject = seperatorObject;
         }
 
-        public object FileObect { get; set; }
+        public string FilePath { get; set; }
         public object SeperatorObject { get; set; }
 
         public int ReadFileBy(ReadingMethodology methodology)
         {
-            int count = methodology.Read(FileObect, SeperatorObject);
+            int count = methodology.Read(FilePath, SeperatorObject);
             return count;
         }
     }

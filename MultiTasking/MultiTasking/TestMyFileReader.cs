@@ -10,35 +10,22 @@ namespace MultiTasking
     {
         static void Main(string[] args)
         {
-            string filePath = "c:\\temp\\UIDesign.txt";
-            StreamReader sr = null;
-            try
-            {
-                sr = new StreamReader(filePath);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
-            }
+            string filePath = @"c:\temp\text.txt";
 
-            if(sr != null)
-            {
-                ReadingMethodology threadMethodology = new ReadUsingThreads();
-                ReadingMethodology tasksMethodology = new ReadUsingTasks();
-                ReadingMethodology asyncAwaitMethodology = new ReadUsingAsyncAwait();
+            ReadingMethodology threadMethodology = new ReadUsingThreads();
+            ReadingMethodology tasksMethodology = new ReadUsingTasks();
+            ReadingMethodology asyncAwaitMethodology = new ReadUsingAsyncAwait();
 
-                MyFileReader mfr = new MyFileReader(sr, "\"");
+            MyFileReader mfr = new MyFileReader(filePath, " ");
 
-                int count = mfr.ReadFileBy(threadMethodology);
-                Console.WriteLine(count);
+            int count = mfr.ReadFileBy(threadMethodology);
+            Console.WriteLine("Final Result = "+count);
 
-                count = mfr.ReadFileBy(tasksMethodology);
-                Console.WriteLine(count);
+            //count = mfr.ReadFileBy(tasksMethodology);
+            //Console.WriteLine(count);
 
-                count = mfr.ReadFileBy(asyncAwaitMethodology);
-                Console.WriteLine(count);
-            }
+            //count = mfr.ReadFileBy(asyncAwaitMethodology);
+            //Console.WriteLine(count);
             Console.Read();
         }
     }

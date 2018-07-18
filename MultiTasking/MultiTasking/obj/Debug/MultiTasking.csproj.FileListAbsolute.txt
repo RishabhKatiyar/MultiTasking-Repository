@@ -12,3 +12,10 @@ D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTa
 D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe.config
 D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe
 D:\Documents\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.pdb
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csprojAssemblyReference.cache
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.csproj.CoreCompileInputs.cache
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.exe
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\obj\Debug\MultiTasking.pdb
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe.config
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.exe
+C:\Repositories\MultiTasking-Repository\MultiTasking\MultiTasking\bin\Debug\MultiTasking.pdb
