@@ -52,7 +52,7 @@ namespace MultiTasking.Algorithms
             Thread childThread4 = new Thread(() => CountSeparator(myList[3], separatorObject));
 
 
-            Console.WriteLine("Calling Method id = "+Thread.CurrentThread.ManagedThreadId);
+            //Console.WriteLine("Calling Method id = "+Thread.CurrentThread.ManagedThreadId);
 
             childThread1.Start();
             childThread2.Start();
@@ -85,9 +85,9 @@ namespace MultiTasking.Algorithms
 
             lock (padlock)
             {
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
                 Result += count;
-                Console.WriteLine("Thread id = "+Thread.CurrentThread.ManagedThreadId+" Result = "+Result);
+                //Console.WriteLine("Thread id = "+Thread.CurrentThread.ManagedThreadId+" Result = "+Result);
             }
         }
     }
