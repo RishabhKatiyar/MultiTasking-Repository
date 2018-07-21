@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MultiTasking.Interfaces
 {
-    interface ReadingMethodology
+    interface ReadingMethodology<T>
     {
-        int Read(string filePath, object seperatorObject);
+        T Read(string filePath, object seperatorObject);
     }
 }

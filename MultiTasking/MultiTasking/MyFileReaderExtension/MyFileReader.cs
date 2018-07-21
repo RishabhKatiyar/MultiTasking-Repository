@@ -1,8 +1,10 @@
-﻿using MultiTasking.Interfaces;
+﻿using System;
+using System.Threading.Tasks;
+using MultiTasking.Interfaces;
 
 namespace MultiTasking.MyFileReaderExtension
 {
-    class MyFileReader
+    class MyFileReader<T>
     {
         public MyFileReader() { }
         public MyFileReader(string filePath, object seperatorObject)
@@ -14,9 +16,9 @@ namespace MultiTasking.MyFileReaderExtension
         public string FilePath { get; set; }
         public object SeperatorObject { get; set; }
 
-        public int ReadFileBy(ReadingMethodology methodology)
+        public T ReadFileBy(ReadingMethodology<T> methodology)
         {
-            int count = methodology.Read(FilePath, SeperatorObject);
+            T count = methodology.Read(FilePath, SeperatorObject);
             return count;
         }
     }
