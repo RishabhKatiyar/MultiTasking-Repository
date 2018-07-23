@@ -14,8 +14,7 @@ namespace MultiTasking.Algorithms
             Task<int> task2 = ReturnTaskCountSeparator(myList[1], separatorObject);
             Task<int> task3 = ReturnTaskCountSeparator(myList[2], separatorObject);
             Task<int> task4 = ReturnTaskCountSeparator(myList[3], separatorObject);
-
-            return task1.Result + task2.Result + task3.Result + task4.Result;
+            return await(task1) + task2.Result + task3.Result + task4.Result;
 
         }
     }
